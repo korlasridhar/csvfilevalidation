@@ -18,8 +18,5 @@ def test_filedata1():
     assert result
 
 def test_branch1_update():
-    pass
-
-
-def test_branch1_update1():
+    print('Conflict Scenario')
     pass
