@@ -17,4 +17,4 @@ def test_filedata1():
 
 def test_filedata2():
     result = sqldf("select age from source_df where age < 100")
-    assert len(result) == 3
+    assert len(result) == 6
