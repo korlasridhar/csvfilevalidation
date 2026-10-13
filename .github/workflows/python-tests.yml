@@ -27,3 +27,7 @@ jobs:
     - name: Run tests with pytest
       run: |
         pytest -v -s
+        
+    - name: Build Docker Image
+      run: |
+        docker build -t csv-validator:latest .
